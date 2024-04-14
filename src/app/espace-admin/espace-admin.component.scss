@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; // Fond blanc
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .btn {
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &.left-btn {
+      background-color: #000; // Noir
+      color: #fff; // Texte blanc
+      border-radius: 5px 0 0 5px;
+    }
+  
+    &.right-btn {
+      background-color: #fff; // Blanc
+      color: #000; // Texte noir
+      border-radius: 0 5px 5px 0;
+    }
+  
+    &:hover {
+      background-color: #333; // Noir plus foncé au survol
+      color: #fff; // Texte blanc
+    }
+  }
+  
